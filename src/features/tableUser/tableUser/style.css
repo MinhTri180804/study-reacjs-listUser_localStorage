@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Styling for table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+
+  th {
+    background-color: green;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  /* Styling for table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
