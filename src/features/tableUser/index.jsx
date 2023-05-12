@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import FormUser from './formUser';
-import ListUser from './tableUser';
+import FormUser from './components/formUser';
+import ListUser from './components/tableUser';
 
 TableUserFeatures.propTypes = {
     
@@ -9,7 +9,6 @@ TableUserFeatures.propTypes = {
 
 function TableUserFeatures(props) {
     const [user, setUser] = useState(() => {
-       
         var my_object = JSON.parse(localStorage.getItem('listUser'));
         return my_object || [];
     });
